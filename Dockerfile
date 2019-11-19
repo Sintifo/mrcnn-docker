@@ -1,4 +1,4 @@
-FROM ufoym/deepo:py36-cu90
+FROM ufoym/deepo:all-jupyter-py36-cu90
 
 MAINTAINER Sintifo
 
