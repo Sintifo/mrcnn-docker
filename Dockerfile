@@ -23,4 +23,4 @@ RUN wget -O $MRCNN_DIR/coco/mask_rcnn_coco.h5 https://github.com/matterport/Mask
 
 WORKDIR "/root"
 
-CMD ["bin/bash"]
+CMD ["/bin/bash"]
