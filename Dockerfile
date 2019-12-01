@@ -6,7 +6,10 @@ ENV TEMP_MRCNN_DIR /tmp/mrcnn
 ENV TEMP_COCO_DIR /tmp/coco
 ENV MRCNN_DIR /mrcnn
 
-RUN pip install scikit-image
+## Update PIP
+RUN pip install --upgrade pip
+
+RUN pip install scikit-image wandb
 
 RUN git clone https://github.com/matterport/Mask_RCNN.git $TEMP_MRCNN_DIR
 
