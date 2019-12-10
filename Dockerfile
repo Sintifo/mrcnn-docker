@@ -1,6 +1,6 @@
 FROM ufoym/deepo:all-jupyter-py36-cu90
 
-MAINTAINER Sintifo
+MAINTAINER sebimarkgraf
 
 ENV TEMP_MRCNN_DIR /tmp/mrcnn
 ENV TEMP_COCO_DIR /tmp/coco
