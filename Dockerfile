@@ -9,7 +9,7 @@ ENV MRCNN_DIR /mrcnn
 ## Update PIP
 RUN pip install --upgrade pip
 
-RUN pip install scikit-image wandb
+RUN pip install scikit-image wandb pycocotools
 
 RUN git clone https://github.com/matterport/Mask_RCNN.git $TEMP_MRCNN_DIR
 
